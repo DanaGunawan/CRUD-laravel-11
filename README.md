@@ -1,4 +1,6 @@
-Project Create, Read, Update Delete menggunakan Laravel 11
+Laravel 11 
+
+Project Create, Read, Update Delete  
 fitur yang tersedia : dashboard Admin, Crud Product dengan Gambar , Crud data Mahasiswa
 
 Langkah Instalasi :
