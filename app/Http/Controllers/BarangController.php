@@ -27,7 +27,7 @@ class BarangController extends Controller
             $data = barang::orderBy('id_produk', 'desc')->paginate(5);
         }
     
-        return view("barang.index")->with('data', $data);
+        return view("barang.index",['title' => 'Dashboard'])->with('data', $data);
     }
 
     /**
@@ -35,7 +35,7 @@ class BarangController extends Controller
      */
     public function create()
     {
-     return view("barang/create");
+     return view("barang/create",['title' => 'Create Produk']);
 
     }
 
@@ -113,7 +113,7 @@ class BarangController extends Controller
     public function edit($id_produk)
     {
         $data = barang::where('id_produk', $id_produk)->first();
-        return view('barang/edit')->with('data', $data);
+        return view('barang/edit',['title' => 'Edit Produk'])->with('data', $data);
     }
 
     /**
