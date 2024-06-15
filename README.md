@@ -77,13 +77,13 @@ Proyek ini mencakup Dashboard Admin, operasi CRUD untuk Produk dengan Gambar, da
 ## Tangkapan Layar
 
 ### Dashboard Admin
-![Dashboard Read](images/show-produk.png)
+![Dashboard Read](public/images/show-produk.png)
 
 ### CRUD Produk
-![Create Produk](images/create-produk.png)
+![Create Produk](public/images/create-produk.png)
 
 ### CRUD Mahasiswa
-![Edit Produk](images/edit-produk.png)
+![Edit Produk](public/images/edit-produk.png)
 
 ## Kontribusi
 - Fork repositori ini
